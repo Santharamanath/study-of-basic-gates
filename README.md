@@ -1,4 +1,6 @@
-### study-of-basic-gates
+# NAME: SANTHA RAMANATH M
+# REG NO:212223220097
+# study-of-basic-gates
 
 **AIM:** 
 
@@ -63,17 +65,42 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
+Program for logic gates
+module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+input a,b;
 
- Developed by: RegisterNumber: 
+output y1,y2,y3,y4,y5,y6,y7;
+
+and(y1,a,b);
+
+or(y2,a,b);
+
+not(y3,a);
+
+xor(y4,a,b);
+
+nand(y5,a,b);
+
+nor(y6,a,b);
+
+xnor(y7,a,b);
+
+endmodule
+```
+  
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2024-03-18 at 09 17 56_022340dc](https://github.com/Santharamanath/study-of-basic-gates/assets/149035289/81fdead4-98d5-4e95-8a9d-df9b02bd0a00)
+
 
 **RTL realization Output:** 
+![Screenshot 2024-03-18 090738](https://github.com/Santharamanath/study-of-basic-gates/assets/149035289/b1246dea-66d5-4cdf-b7a1-f805b0bcd65a)
 
 **RTL**
+![Screenshot 2024-03-18 091305](https://github.com/Santharamanath/study-of-basic-gates/assets/149035289/7e1d3d03-5967-476f-82d7-cbb211af4368)
 
 **Result:**
-
+Thus the differnt digital IC's are studied and the truth table for differnt logic gates are verified.
 
